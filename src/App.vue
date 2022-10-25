@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from '@vue/runtime-core'
+import { onMounted, ref } from 'vue'
 import { io } from 'socket.io-client'
 
 const msg = ref()
